@@ -1,0 +1,18 @@
+#include<cs50.h>
+#include<stdio.h>
+int main(void){
+    int n=0;
+  int i,j,l;
+  n=get_int("posetiv nomber ");
+  if(n<8&&n>1){
+    for(i=0;i<n;i++){
+      for(j=i;j<n;j++){
+        printf(" ");
+      }
+       for(l=0;l<=i;l++){
+        printf("#");
+        }
+      printf("\n");
+    }
+  }
+}
